@@ -2001,9 +2001,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5251681194348313562}
+  - component: {fileID: 9208546566216396078}
   m_Layer: 0
   m_Name: biplane
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2048,6 +2049,27 @@ Transform:
   - {fileID: 4392204078099135312}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &9208546566216396078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131859547997866441}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.1601204, y: 1.1596171, z: 3.4921045}
+  m_Center: {x: 0.4443874, y: 0.31783774, z: 0.01419481}
 --- !u!1 &9131984461409024776
 GameObject:
   m_ObjectHideFlags: 0
